@@ -1,8 +1,9 @@
-body{
+html{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 img{
     width: 100%;
@@ -90,6 +91,14 @@ img{
 /* about section end */
 /* project section start */
 #project-section{
+    position: relative;
+    height: 700px;
+    margin: 150px 0px;
+    padding: 50px;
+    background-color: #4E43CC;
+    text-align: center;
+}
+#portfolio-section{
     position: relative;
     height: 700px;
     margin: 150px 0px;
